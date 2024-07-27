@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#outer {
+    height: 600px;
+    width: 1000px;
+    background-color: rgba(228, 214, 196, 0.989);
+    margin: 4.5% auto;
+}
+
+#pic {
+    height: 50%;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    border-radius: 2%;
+    box-shadow: 2px 2px 8px
+}
+
+div {
+    height: 100%;
+    width: 50%;
+
+}
+
+#tablee {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+
+#type {
+    height: 5%;
+    width: 82%;
+    display: block;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #757575;
+    text-transform: uppercase;
+
+}
+
+#brand {
+    height: 15%;
+    width: 100%;
+    display: blo;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.discription {
+    margin-top: 2%;
+
+    height: 28%;
+    width: 100%;
+    text-align: justify;
+    font-size: 14px;
+    color: #757575;
+}
+
+.discount-price {
+
+    height: 10%;
+    display: inline-block;
+    margin-left: 15%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.price {
+
+    height: 10%;
+    width: 25%;
+    margin-left: 2%;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.buy {
+    margin-top: 5%;
+
+    height: 13%;
+    width: 75%;
+    margin-left: 12.5%;
+
+
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.center {
+    padding-left: 25%;
+    padding-top: 5%;
+}
